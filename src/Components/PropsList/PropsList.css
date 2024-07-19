@@ -1,0 +1,44 @@
+#CardsContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#CardsContainer h1 {
+    color: hsl(234, 12%, 34%);
+    margin: 15px 0 0 23px;
+}
+
+#CardsContainer p {
+    color: hsl(229, 6%, 66%);
+    font-size: 13px;
+    margin: 5px 0 0 23px;
+}
+
+
+#CardsContainer img {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+
+@media (max-width: 697px) {
+    #CardsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 36px;
+    }
+
+
+    #CardsContainer img {
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        right: 17px;
+        bottom: 20px;
+    }
+}

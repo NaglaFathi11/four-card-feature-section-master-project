@@ -1,0 +1,34 @@
+#text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#text-content h1 {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+#text-content span {
+    color: hsl(234, 12%, 34%);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+#text-content p {
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+}
+
+
+@media (max-width: 697px) {
+    #text-content {
+        font-size: 11px;
+    }
+
+    #text-content span {
+        margin-bottom: 15px;
+    }
+}
